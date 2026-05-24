@@ -1,0 +1,19 @@
+{
+  "name": "foundrreach-crawlee-service",
+  "version": "1.0.0",
+  "description": "Self-hosted Crawlee + Playwright HTTP API replacing Apify cloud scrapers",
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/server.ts"
+  },
+  "dependencies": {
+    "crawlee": "^3.13.0",
+    "playwright": "^1.49.0",
+    "express": "^4.21.0",
+    "zod": "^3.23.0",
+    "ioredis": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=22.6"
+  }
+}
